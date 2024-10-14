@@ -1,0 +1,1232 @@
+/**Favicon**/
+link .favicon{
+    color: blueviolet;
+    background-color: aqua;
+}
+/**header*/
+
+.logo{
+    background-color: aqua;
+    border-radius: 50%;
+    border-color: blue;
+    border-style: double;
+    border-width: 10px;
+    padding : 20px;
+    margin-right: 105px;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+}
+
+/*dropdown*/
+.dropdown-toggle{
+    color: rgb(0, 0, 0) !important; /*Marcas me quedaba blanco suave, cone sto se arregla*/
+}
+
+ul .dropdown-menu{
+    background-color: #d6b68c;
+   
+}
+
+
+.nav-link{
+    transition: .4s all;
+}
+
+.nav-link:hover{
+     translate: scale(1.2);
+     background-color: rgb(255, 238, 183);
+     border-radius: 20px;
+     margin-right: 20px;
+      
+      
+}
+
+
+/*boton de busqueda*/
+.d-flex{
+    margin-right: 200px;
+    border-radius: 50px;
+}
+
+.carro{
+    height: 30px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* CUERPO*/
+
+
+.seccion1{
+    background-color: #ffc87f;
+}
+
+/*borde del carrousel*/
+.carousel-item img { 
+    object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    border-style: groove;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+
+.col{
+    margin-right: -10px;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+       
+           
+@media screen and (min-width:820px) and (max-width: 912px) {
+
+
+ 
+
+    .seccion1{
+        background-color: #ffc87f;
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        min-width:  50px;
+        margin-left: -10px;
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 18rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: 71px;
+        margin-left: 65px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+         
+    }
+    
+    
+        
+     }
+     
+   
+
+
+
+
+
+
+               
+@media screen and (min-width: 768px) and (max-width: 819px) {
+
+
+ 
+
+    .seccion1{
+        background-color: #ffc87f;
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        min-width:  100px !important;
+        margin-left: -10px;
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 18rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: 71px;
+        margin-left: 65px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+         
+    }
+    
+    
+        
+     }
+     
+   
+
+
+
+
+     
+
+
+               
+@media screen and (min-width: 683px) and (max-width: 767px) {
+
+
+ 
+
+    .seccion1{
+        background-color: #ffc87f;
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        max-width: 300px !important;
+        min-width:  300px !important;
+        margin-left: -40px;
+         
+        
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 8rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: auto;
+        margin-left:auto;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+         
+    }
+    
+    
+        
+     }
+     
+   
+
+
+
+
+
+
+
+
+     
+               
+@media screen and (min-width: 540px) and (max-width: 682px) {
+
+
+ 
+
+    .seccion1{
+        background-color: #ffc87f;
+         
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        max-width: 250px !important;
+        min-width:  200px !important;
+        margin-left: -95px;
+         
+         
+        
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 8rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: 60px;
+        margin-left:auto;
+         
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+         
+    }
+    
+    
+        
+     }
+     
+   
+
+
+     
+     
+               
+@media screen and (min-width: 430px) and (max-width: 539px) {
+
+
+ 
+
+    .seccion1{
+        background-color: #ffc87f;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        max-width: 220px !important;
+        min-width:  200px !important;
+        margin-left: -110px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+         
+        
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 5rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: 10px;
+        margin-left:auto;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    
+        
+     }
+
+
+
+
+
+
+
+
+
+         
+     
+               
+@media screen and (min-width: 414px) and (max-width: 429px) {
+
+      .contenedor{
+        max-width: 100%;
+      }
+ 
+
+    .seccion1{
+        background-color: #ffc87f;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        max-width: 220px !important;
+        min-width:  200px !important;
+        margin-left: -140px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+         
+        
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 5rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: 10px;
+        margin-left:auto;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    
+        
+     }
+     
+   
+     
+
+
+
+          
+               
+@media screen and (min-width: 400px) and (max-width: 413px) {
+
+
+ 
+
+    .seccion1{
+        background-color: #ffc87f;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        max-width: 220px !important;
+        min-width:  200px !important;
+        margin-left: -140px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+         
+        
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 5rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: 10px;
+        margin-left:auto;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    
+        
+     }
+     
+   
+     
+       
+               
+@media screen and (min-width: 414px) and (max-width: 429px) {
+
+    .contenedor{
+      max-width: 100%;
+    }
+
+
+  .seccion1{
+      background-color: #ffc87f;
+      flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+       
+  }
+  
+  /*borde del carrousel*/
+  .carousel-item img { 
+      object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+      border-radius: 30px;
+      border-color: rgb(0, 0, 0);
+      border-style: double;
+      border-style: groove;
+      max-width: 220px !important;
+      min-width:  200px !important;
+      margin-left: -140px;
+      flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+       
+       
+      
+   
+      
+  }
+  
+  
+   /* Cambiar el color de los botones de navegación */
+   .carousel-control-prev, .carousel-control-next {
+      background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+      border-radius: 50%; /* Bordes redondeados */
+      height: 5rem !important;       /*altura circulos de flechas->*/
+      margin-top: 30px;     /*margen superior de los circulos de flechas*/
+      margin-right: 10px;
+      margin-left:auto;
+      flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+       
+      
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /*FOOTER*/
+  
+  
+  .col{
+      margin-right: -10px;
+      flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+       
+  }
+  
+  
+      
+   }
+   
+ 
+   
+
+
+
+        
+             
+@media screen and (min-width: 360px) and (max-width: 399px) {
+
+
+
+
+  .seccion1{
+      background-color: #ffc87f;
+      flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+       
+  }
+  
+  /*borde del carrousel*/
+  .carousel-item img { 
+      object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+      border-radius: 30px;
+      border-color: rgb(0, 0, 0);
+      border-style: double;
+      border-style: groove;
+      max-width: 220px !important;
+      min-width:  200px !important;
+      margin-left: -170px;
+      flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+       
+       
+      
+   
+      
+  }
+  
+  
+   /* Cambiar el color de los botones de navegación */
+   .carousel-control-prev, .carousel-control-next {
+      background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+      border-radius: 50%; /* Bordes redondeados */
+      height: 5rem !important;       /*altura circulos de flechas->*/
+      margin-top: 30px;     /*margen superior de los circulos de flechas*/
+      margin-right: 10px;
+      margin-left:auto;
+      flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+       
+      
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /*FOOTER*/
+  
+  
+  .col{
+      margin-right: -10px;
+      flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+       
+  }
+  
+  
+      
+   }
+   
+ 
+   
+ 
+
+
+
+        
+             
+@media screen and (min-width: 282px) and (max-width: 359px) {
+
+
+
+
+    .seccion1{
+        background-color: #ffc87f;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        max-width: 220px !important;
+        min-width:  200px !important;
+        margin-left: -190px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+         
+        
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 5rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: 10px;
+        margin-left:auto;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    
+        
+     }
+     
+   
+     
+   
+
+
+
+            
+             
+@media screen and (min-width: 266px) and (max-width: 381px) {
+
+
+
+
+    .seccion1{
+        background-color: #ffc87f;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        max-width: 220px !important;
+        min-width:  200px !important;
+        margin-left: -190px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+         
+        
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 5rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: 10px;
+        margin-left:auto;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    
+        
+     }
+     
+   
+     
+   
+
+
+
+
+                 
+             
+@media screen and (min-width: 230px) and (max-width: 265px) {
+
+
+
+
+    .seccion1{
+        background-color: #ffc87f;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        max-width: 220px !important;
+        min-width:  200px !important;
+        margin-left: -230px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+         
+        
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 5rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: 10px;
+        margin-left:auto;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    
+        
+     }
+     
+   
+     
+   
+
+
+
+
+
+
+
+
+
+
+                      
+             
+@media screen and (min-width: 180px) and (max-width: 229px) {
+
+
+
+
+    .seccion1{
+        background-color: #ffc87f;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        max-width: 170px !important;
+        min-width:  120px !important;
+        margin-left: -210px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+         
+        
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 5rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: 10px;
+        margin-left:auto;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    
+        
+     }
+     
+   
+     
+   
+
+
+
+
+
+
+                          
+             
+@media screen and (min-width: 150px) and (max-width: 179px) {
+
+
+
+
+    .seccion1{
+        background-color: #ffc87f;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        max-width: 170px !important;
+        min-width:  120px !important;
+        margin-left: -220px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+         
+        
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 5rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: 10px;
+        margin-left:auto;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    
+        
+     }
+     
+   
+     
+   
+
+
+
+                              
+             
+@media screen and (min-width: 100px) and (max-width: 149px) {
+
+
+
+
+    .seccion1{
+        background-color: #ffc87f;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        max-width: 150px !important;
+        min-width:  100px !important;
+        margin-left: -220px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+         
+        
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 5rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: 10px;
+        margin-left:auto;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    
+        
+     }
+     
+   
+     
+   
+
+
+
+
+     
+                              
+             
+@media screen and (min-width: 100px) and (max-width: 149px) {
+
+
+
+
+    .seccion1{
+        background-color: #ffc87f;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    /*borde del carrousel*/
+    .carousel-item img { 
+        object-fit: cover; /* O usa 'contain' si prefieres que la imagen se ajuste sin recortes */
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        border-style: double;
+        border-style: groove;
+        max-width: 150px !important;
+        min-width:  100px !important;
+        margin-left: -220px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+         
+        
+     
+        
+    }
+    
+    
+     /* Cambiar el color de los botones de navegación */
+     .carousel-control-prev, .carousel-control-next {
+        background-color: rgba(226, 43, 43, 0.5); /* Color de fondo */
+        border-radius: 50%; /* Bordes redondeados */
+        height: 5rem !important;       /*altura circulos de flechas->*/
+        margin-top: 30px;     /*margen superior de los circulos de flechas*/
+        margin-right: 10px;
+        margin-left:auto;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+    
+    
+    .col{
+        margin-right: -10px;
+        flex: 1 1 100%; /* En pantallas pequeñas, los elementos ocupan el 100% del ancho */
+         
+    }
+    
+    
+        
+     }
+     
+   
+     
+   
